@@ -1,0 +1,139 @@
+{
+  "children": [
+    {
+      "id": "haechan",
+      "name": "해찬",
+      "birthDate": "2020-12",
+      "age": 5,
+      "profileImage": "👦",
+      "permanentTeethStatus": {
+        "firstMolar": false,
+        "lowerIncisors": false
+      }
+    },
+    {
+      "id": "eunchan",
+      "name": "은찬",
+      "birthDate": "2022-01",
+      "age": 4,
+      "profileImage": "👶",
+      "permanentTeethStatus": {
+        "firstMolar": false,
+        "lowerIncisors": false
+      }
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt001",
+      "childId": "haechan",
+      "date": "2026-01-30",
+      "time": "15:45",
+      "type": "충치치료",
+      "status": "scheduled",
+      "description": "1차 치료 - 웃음가스 + 마취 + 충치치료",
+      "location": "OO치과",
+      "notes": "오른쪽 아래: 레진 1 + GI 1"
+    }
+  ],
+  "treatments": [
+    {
+      "id": "tr001",
+      "childId": "haechan",
+      "date": "2026-01-23",
+      "type": "검진",
+      "description": "파노라마 촬영 및 충치 진단",
+      "diagnosis": [
+        "오른쪽 아래 충치 심각 - 레진 1, GI 1",
+        "왼쪽 아래 충치 - GI 2",
+        "상측 경과 관찰"
+      ],
+      "cost": 0,
+      "photos": []
+    },
+    {
+      "id": "tr002",
+      "childId": "eunchan",
+      "date": "2026-01-23",
+      "type": "검진",
+      "description": "파노라마 촬영 및 충치 진단",
+      "diagnosis": [
+        "어금니 아래위 충치 발견",
+        "백색병소 (앞니)",
+        "치실 + 고불소 치약 관리 필요"
+      ],
+      "cost": 20000,
+      "photos": []
+    }
+  ],
+  "dailyChecks": [],
+  "costs": [
+    {
+      "id": "cost001",
+      "childId": "eunchan",
+      "date": "2026-01-23",
+      "category": "검진",
+      "description": "파노라마 촬영",
+      "amount": 20000
+    }
+  ],
+  "milestones": [
+    {
+      "childId": "haechan",
+      "age": 6,
+      "year": 2026,
+      "events": [
+        "영구치 첫 어금니 맹출 예상",
+        "실란트 시술 최적기",
+        "아래 앞니 유치→영구치 교체 시작"
+      ]
+    },
+    {
+      "childId": "haechan",
+      "age": 10,
+      "year": 2030,
+      "events": [
+        "제2대구치 맹출 예상",
+        "교정 골든타임",
+        "스케일링 시작"
+      ]
+    },
+    {
+      "childId": "eunchan",
+      "age": 6,
+      "year": 2028,
+      "events": [
+        "영구치 첫 어금니 맹출 예상",
+        "실란트 시술 최적기",
+        "아래 앞니 유치→영구치 교체 시작"
+      ]
+    },
+    {
+      "childId": "eunchan",
+      "age": 10,
+      "year": 2032,
+      "events": [
+        "제2대구치 맹출 예상",
+        "교정 골든타임",
+        "스케일링 시작"
+      ]
+    }
+  ],
+  "routineSchedule": {
+    "checkup": {
+      "interval": 3,
+      "unit": "months",
+      "description": "정기 검진"
+    },
+    "fluoride": {
+      "interval": 6,
+      "unit": "months",
+      "description": "불소도포"
+    },
+    "panorama": {
+      "interval": 12,
+      "unit": "months",
+      "description": "파노라마 촬영"
+    }
+  }
+}
